@@ -56,7 +56,6 @@ The analysis and model include:
 ---
 
 ## How to Run
-
 1. Clone the repository:
    git clone https://github.com/yourusername/disease-prediction.git
 
@@ -71,7 +70,8 @@ pip install pandas numpy matplotlib seaborn scikit-learn streamlit
 streamlit run app.py
 
 ---
-Example Workflow
+
+##Example Workflow
 
 1.User Input
 Input health parameters such as age, blood pressure, cholesterol levels, BMI, etc.
@@ -83,7 +83,8 @@ The model predicts the likelihood of specific diseases (e.g., diabetes, heart di
 A probability score indicating the likelihood of the user contracting a disease, along with relevant recommendations.
 
 ----
-Future Scope
+
+##Future Scope
 
 Integrate additional datasets for a broader range of diseases.
 
@@ -94,7 +95,7 @@ Expand the web interface with more user-friendly features like visual explanatio
 Deploy the model as a REST API for integration with healthcare applications.
 
 ----
-Dataset Information
+##Dataset Information
 
 The dataset used in this project is from publicly available healthcare datasets (e.g., Diabetes, Heart Disease datasets). The dataset contains health-related attributes and disease outcomes.
 
