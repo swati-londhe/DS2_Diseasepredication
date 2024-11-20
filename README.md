@@ -74,17 +74,23 @@ streamlit run app.py
 Example Workflow
 1.User Input
 Input health parameters such as age, blood pressure, cholesterol levels, BMI, etc.
+
 2.Prediction
 The model predicts the likelihood of specific diseases (e.g., diabetes, heart disease, etc.) based on the input parameters.
+
 3.Output
 A probability score indicating the likelihood of the user contracting a disease, along with relevant recommendations.
 
 ----
 Future Scope
 Integrate additional datasets for a broader range of diseases.
+
 Implement deep learning models for improved prediction accuracy.
+
 Expand the web interface with more user-friendly features like visual explanations of the predictions.
+
 Deploy the model as a REST API for integration with healthcare applications.
+
 ----
 Dataset Information
 The dataset used in this project is from publicly available healthcare datasets (e.g., Diabetes, Heart Disease datasets). The dataset contains health-related attributes and disease outcomes.
