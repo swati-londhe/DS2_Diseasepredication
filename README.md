@@ -5,7 +5,7 @@ This project aims to predict the likelihood of diseases based on user inputs, ut
 
 ---
 
-## Features of the System
+## **Features of the System**
 
 ### **Data Collection**
 - Data sourced from healthcare datasets containing information on various health parameters and disease history.
@@ -31,7 +31,7 @@ This project aims to predict the likelihood of diseases based on user inputs, ut
 
 ---
 
-## Tools and Libraries Used
+## **Tools and Libraries Used**
 - **Programming Language**: Python
 - **Data Analysis**: Pandas, NumPy
 - **Data Visualization**: Matplotlib, Seaborn
@@ -40,14 +40,14 @@ This project aims to predict the likelihood of diseases based on user inputs, ut
 
 ---
 
-## Key Insights
+## **Key Insights**
 - Health parameters like age, cholesterol, and smoking history are significant factors influencing disease prediction.
 - Log transformations helped normalize skewed features such as BMI and cholesterol.
 - The model can accurately predict the likelihood of diseases based on key health indicators, assisting in early detection and prevention.
 
 ---
 
-## Visuals
+## **Visuals**
 The analysis and model include:
 - **Histograms and Boxplots**: To explore the distribution and outliers of health indicators.
 - **Bar Charts**: For categorical feature comparisons (e.g., gender, smoking history).
@@ -55,10 +55,11 @@ The analysis and model include:
 
 ---
 
-## How to Run
+## **How to Run**
+
 1. Clone the repository:
    git clone https://github.com/yourusername/disease-prediction.git
-
+   
 2.Ensure the required files are in place:
 dataset.csv: The health dataset used for model training.
 model.pkl: The trained machine learning model for predictions.
@@ -71,20 +72,19 @@ streamlit run app.py
 
 ---
 
-##Example Workflow
+## **Example Workflow**
 
-1.User Input
+User Input:
 Input health parameters such as age, blood pressure, cholesterol levels, BMI, etc.
 
-2.Prediction
+Prediction:
 The model predicts the likelihood of specific diseases (e.g., diabetes, heart disease, etc.) based on the input parameters.
 
-3.Output
+Output:
 A probability score indicating the likelihood of the user contracting a disease, along with relevant recommendations.
 
-----
-
-##Future Scope
+---
+## **Future Scope**
 
 Integrate additional datasets for a broader range of diseases.
 
@@ -94,9 +94,9 @@ Expand the web interface with more user-friendly features like visual explanatio
 
 Deploy the model as a REST API for integration with healthcare applications.
 
-----
-##Dataset Information
+---
+
+## **Dataset Information**
 
 The dataset used in this project is from publicly available healthcare datasets (e.g., Diabetes, Heart Disease datasets). The dataset contains health-related attributes and disease outcomes.
-
 
